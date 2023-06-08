@@ -4,7 +4,7 @@ import { About, Contact, Experience, Feedbacks, Navbar, Tech, Works, StarsCanvas
 import WalkingCat from "./components/WalkingCat";
 import Education from "./components/Education";
 
-const App = () => {
+const app = () => {
   return (
     <BrowserRouter>
       <div className='relative z-0 bg-primary'>
@@ -32,4 +32,4 @@ const App = () => {
   );
 }
 
-export default App;
+export default app;
