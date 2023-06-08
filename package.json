@@ -7,7 +7,8 @@
   "scripts": {
     "dev": "vite",    
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "postbuild": "cp build/index.html build/404.html",
   },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
